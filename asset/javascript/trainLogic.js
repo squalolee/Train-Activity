@@ -61,5 +61,5 @@ var firebaseConfig = {
       console.log(arrival);
       console.log(sv.name);
 
-    $("#tbody").append("<tr><td>"+trainName+"</td><td>"+destination+"</td><td>"+arrival+"</td><td>"+minutes+"</td></tr>");
+    $("#tbody").append("<tr><td>"+trainName+"</td><td>"+destination+"</td><td>"+frequency+"</td><td>"+arrival+"</td><td>"+minutes+"</td></tr>");
   })
